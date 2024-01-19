@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center style="color:orange;">
+        <h1>insert_state from MF</h1>
+        <form method="POST">
+
+            {% csrf_token %}
+
+            {{ESFO.as_p}}
+
+            <input type="submit" style="background-color:orange;">
+        </form>
+    </center>
+</body>
+</html>
